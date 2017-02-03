@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Damn Stupid Simple (DSS) Framework</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCoreEclipse.min.css" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+                <!-- Header -->
+                <header id="header">
+                    <h1><a href="index.html">Home</a> / Installing</h1>
+                    <p>Download and Install DSS Framework</p>
+                </header>
+
+                <nav id="nav" class="">
+                    <ul>
+                        <li><a href="#intro" class="active">Introduction</a></li>
+                        <li><a href="#install" class="">Installing</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Main -->
+                <div id="main">
+
+                    <!-- Content -->
+                    <section id="intro" class="main">
+                        <!-- <span class="image main"><img src="images/pic04.jpg" alt="" /></span> -->
+                        <h2>Introduction</h2>
+                        <p>Damn Stupid Simple (DSS) is a Model View Controller (MVC) framework based on PHP. The framework is integrated with Composer.</p>
+                        <p>Composer is a tool for dependency management in PHP. It allows you to download packages or libraries other developers have created and you can include it on your project. DSS framework relies on Composer to download and update packages so we do not have to rewrite codes again and again.</p>
+                        <p>The DSS framework's objective is to provide a simple PHP framework for rapid development. </p>
+
+                        <div class="tab">
+                            <h3 class="tab-title" onclick="BasicUI.show('#windows')">Installing Composer on Windows</h3>
+                            <div id="windows" class="tab-content" style="display: none">
+                                <p>1. Download the <a href="https://getcomposer.org/Composer-Setup.exe">Composer Installer for Windows</a></p>
+                                <p>2. Double click on the Composer-Setup.exe and install. Select your PHP version.</p>
+                                <p>3. Test the installed Composer by opening a command prompt, type Composer and press Enter.</p>
+                                <p>4. If you can see the Composer command, your Composer installation has succeeded.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tab">
+                            <h3 class="tab-title" onclick="BasicUI.show('#mac_linux')">To install Composer on Mac OS X or Linux</h3>
+                            <div id="mac_linux" class="tab-content" style="display: none">
+                                <p>1. Download the latest Composer.phar from <a href="https://getcomposer.org/composer.phar">this link</a> or using wget:</p>
+                                <pre class="brush: bash">
+                                    curl https://getcomposer.org/composer.phar -o composer.phar
+                                </pre>
+                                <p>2. Move the Composer.phar to /usr/local/bin/</p>
+                                <pre class="brush: bash">
+                                    sudo mv composer.phar /usr/local/bin/composer
+                                </pre>
+                                <p>3. Type Composer in the terminal and press enter to see if the installation has succeed.</p>
+                            </div>
+                        </div>
+                                            
+                    </section>
+
+                    <!-- Content -->
+                    <section id="install" class="main">
+                        <!-- <span class="image main"><img src="images/pic04.jpg" alt="" /></span> -->
+                        <h2>Installing DSS framework using Composer</h2>
+                        <p>To install the framework through composer, type this on the Command Prompt / Terminal</p>
+                        <pre class="brush: bash">
+                            composer create-project damnstupidsimple/framework myproject
+                        </pre>
+                    </section>
+
+                </div>
+
+            <!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>DSS Framework Forum</h2>
+							<p>Have any thoughts? Found any bugs or issues when you are using DSS framework? See our forum:</p>
+							<ul class="actions">
+								<li><a target="_blank" href="http://www.dssforum.ml/forum/" class="button">Forum</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>About Us</h2>
+							<dl class="alt">
+								<p>Made in Malaysia</p>
+								<p>Email: <a href="mailto: fariz.fnb@gmail.com">fariz.fnb@gmail.com</a></p>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/damnstupidsimple/?fref=ts" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/damnstupidsimple/framework" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="mailto:fariz.fnb@gmail.com" class="icon fa-envelope alt"><span class="label">Email: fariz.fnb@gmail.com</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Damn Stupid Simple. Designed with ♥ by <a target="_blank" href="https://html5up.net">HTML5 UP</a></p>
+					</footer>
+
+			</div>
+
+            <a href="https://github.com/damnstupidsimple/framework"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/basicui.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushPhp.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushBash.min.js"></script>
+        <script type="text/javascript">
+            SyntaxHighlighter.all()
+        </script>
+	</body>
+</html>
