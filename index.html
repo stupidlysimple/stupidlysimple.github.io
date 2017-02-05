@@ -116,7 +116,7 @@
 							<h2>StupidlySimple</h2>
 							<p>Have any thoughts? Found any bugs or issues when you are using StupidlySimple framework? See our forum:</p>
 							<ul class="actions">
-								<li><a target="_blank" href="http://www.stupidlysimple.ml/forum/" class="button">Forum</a></li>
+								<li><a target="_blank" href="https://www.stupidlysimple.ml/forum/" class="button">Forum</a></li>
 							</ul>
 						</section>
 						<section>
@@ -131,7 +131,7 @@
 								<li><a href="mailto:fariz.fnb@gmail.com" class="icon fa-envelope alt"><span class="label">Email: fariz.fnb@gmail.com</span></a></li>
 							</ul>
 						</section>
-						<p class="copyright">&copy; Fariz Luqman. Designed with ♥ by <a target="_blank" href="https://html5up.net">HTML5 UP</a></p>
+						<p class="copyright">&copy; 2017 Fariz Luqman. Designed with ♥ by <a target="_blank" href="https://html5up.net">HTML5 UP</a></p>
 					</footer>
 
 			</div>
@@ -146,6 +146,12 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.min.js"></script>
+        <script>
+            var md = md = new MarkdownIt();
+            var result = md.renderInline('__markdown-it__ rulezz!');
+            $('#footer').append(result);
+            alert(result);
+        </script>
 	</body>
 </html>
