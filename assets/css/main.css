@@ -2836,3 +2836,77 @@ body.is-loading #header.alt .logo {
 		max-width: 100%;
 	}
 }
+
+.lib-list > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.lib {
+    display: inline-table !important;
+    line-height: 2em;
+    width: 48%;
+    text-align: left;
+    padding: 10px 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    transition: opacity 0.125s ease-out, background-color 0.125s ease-out, border-color 0.125s ease-out;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.04);
+
+}
+
+.lib.gray {
+    border: 1px solid #bfbfbf;
+}
+
+.lib .title {
+    font-size: 1.2em;
+    font-weight: 400;
+	color: #231f20;
+}
+
+.lib .description {
+	display: inline-block;
+	min-height: 80px;
+}
+
+.lib hr {
+    margin: 0 0 0.4em 0;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+.pill {
+    font-size: 0.7em;
+    padding: 5px;
+	border-radius: 7px;
+	margin-right: 5px;
+}
+
+.pill.pill-orange {
+    background: #f38697;
+    color: #fff;
+}
+
+.pill.pill-green {
+    background: #62cba0;
+    color: #fff;
+}
+
+.pill.pill-purple {
+    background: #b85aae;
+    color: #fff;
+}
+
+.pill.pill-blue {
+    background: #8ec6ee;
+    color: #fff;
+}
+
+.pill.pill-brown {
+    background: #d98d48;
+    color: #fff;
+}
+
